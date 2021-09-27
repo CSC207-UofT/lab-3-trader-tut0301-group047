@@ -41,7 +41,7 @@ public class CarTest {
 
     @Test
     public void TestGetPriceSlow() {
-        c.upgradeSpeed();
+        c.downgradeSpeed();
         assertEquals(900, c.getPrice());
     }
 }
